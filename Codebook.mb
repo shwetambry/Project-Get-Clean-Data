@@ -101,23 +101,246 @@ Column 19: tGravityAccMag-mean()
 	activity in the Column 2 of respective row.
 	
 Column 20: tBodyAccJerkMag-mean()
-21 tBodyGyroMag-mean()
-22 tBodyGyroJerkMag-mean()
+	In the tidyData, this column represents the average of mean estimates of signal “tBodyAccJerkMag” 
+	for the corresponding value of subject in Column 1 while doing corresponding 
+	activity in the Column 2 of respective row.
+	
+Column 21: tBodyGyroMag-mean()
+	In the tidyData, this column represents the average of mean estimates of signal “tBodyGyroMag” 
+	for the corresponding value of subject in Column 1 while doing corresponding 
+	activity in the Column 2 of respective row.
+	
+Column 22: tBodyGyroJerkMag-mean()
+	In the tidyData, this column represents the average of mean estimates of signal “tBodyGyroJerkMag” 
+	for the corresponding value of subject in Column 1 while doing corresponding 
+	activity in the Column 2 of respective row.
+	
 Column 23: fBodyAcc-mean()-X
 	In the tidyData, this column represents the average of mean estimates of signal “fBodyAcc” 
 	in X direction for the corresponding value of subject in Column 1 while doing corresponding 
 	activity in the Column 2 of respective row.
 	
 Column 24: fBodyAcc-mean()-Y
-25 fBodyAcc-mean()-Z
-26 fBodyAccJerk-mean()-X
-27 fBodyAccJerk-mean()-Y
-28 fBodyAccJerk-mean()-Z
-29 fBodyGyro-mean()-X
-30 fBodyGyro-mean()-Y
-31 fBodyGyro-mean()-Z
-32 fBodyAccMag-mean()
-33 fBodyBodyAccJerkMag-mean()
-34 fBodyBodyGyroMag-mean()
-35 fBodyBodyGyroJerkMag-mean()
-v 
+	In the tidyData, this column represents the average of mean estimates of signal “fBodyAcc” 
+	in Y direction for the corresponding value of subject in Column 1 while doing corresponding 
+	activity in the Column 2 of respective row.
+
+Column 25: fBodyAcc-mean()-Z
+	In the tidyData, this column represents the average of mean estimates of signal “fBodyAcc” 
+	in Z direction for the corresponding value of subject in Column 1 while doing corresponding 
+	activity in the Column 2 of respective row.
+	
+Column 26: fBodyAccJerk-mean()-X
+	In the tidyData, this column represents the average of mean estimates of signal “fBodyAccJerk” 
+	in X direction for the corresponding value of subject in Column 1 while doing corresponding 
+	activity in the Column 2 of respective row.
+	
+Column 27: fBodyAccJerk-mean()-Y
+	In the tidyData, this column represents the average of mean estimates of signal “fBodyAccJerk” 
+	in Y direction for the corresponding value of subject in Column 1 while doing corresponding 
+	activity in the Column 2 of respective row.
+
+Column 28: fBodyAccJerk-mean()-Z
+	In the tidyData, this column represents the average of mean estimates of signal “fBodyAccJerk” 
+	in Z direction for the corresponding value of subject in Column 1 while doing corresponding 
+	activity in the Column 2 of respective row.
+	
+Column 29: fBodyGyro-mean()-X
+	In the tidyData, this column represents the average of mean estimates of signal “fBodyGyro” 
+	in X direction for the corresponding value of subject in Column 1 while doing corresponding 
+	activity in the Column 2 of respective row.
+	
+Column 30: fBodyGyro-mean()-Y
+	In the tidyData, this column represents the average of mean estimates of signal “fBodyGyro” 
+	in Y direction for the corresponding value of subject in Column 1 while doing corresponding 
+	activity in the Column 2 of respective row.
+	
+Column 31: fBodyGyro-mean()-Z
+	In the tidyData, this column represents the average of mean estimates of signal “fBodyGyro” 
+	in Z direction for the corresponding value of subject in Column 1 while doing corresponding 
+	activity in the Column 2 of respective row.
+	
+Column 32: fBodyAccMag-mean()
+	In the tidyData, this column represents the average of mean estimates of signal “fBodyAccMag” 
+	for the corresponding value of subject in Column 1 while doing corresponding 
+	activity in the Column 2 of respective row.
+	
+Column 33: fBodyBodyAccJerkMag-mean()
+	In the tidyData, this column represents the average of mean estimates of signal “fBodyAccJerkMag” 
+	for the corresponding value of subject in Column 1 while doing corresponding 
+	activity in the Column 2 of respective row.
+	
+Column 34: fBodyBodyGyroMag-mean()
+	In the tidyData, this column represents the average of mean estimates of signal “fBodyGyroMag” 
+	for the corresponding value of subject in Column 1 while doing corresponding 
+	activity in the Column 2 of respective row.
+	
+Columnn 35: fBodyBodyGyroJerkMag-mean()
+	In the tidyData, this column represents the average of mean estimates of signal “fBodyGyroJerkMag” 
+	for the corresponding value of subject in Column 1 while doing corresponding 
+	activity in the Column 2 of respective row.
+ 
+Column 36: tBodyAcc-std()-X
+	This column represents the average of standard deviation(std) estimates of signal “tBodyAcc” 
+	in X direction for the corresponding subject in Column 1 while doing corresponding activity 
+	in the Column 2 of respective row.
+	
+Column 37: tBodyAcc-std()-Y
+	This column represents the average of standard deviation(std) estimates of signal “tBodyAcc” 
+	in Y direction for the corresponding subject in Column 1 while doing corresponding activity 
+	in the Column 2 of respective row.
+
+Column 38: tBodyAcc-std()-Z
+	This column represents the average of standard deviation(std) estimates of signal “tBodyAcc” 
+	in Z direction for the corresponding subject in Column 1 while doing corresponding activity 
+	in the Column 2 of respective row.
+
+Column 39: tGravityAcc-std()-X
+	This column represents the average of standard deviation(std) estimates of signal “tGravityAcc” 
+	in X direction for the corresponding subject in Column 1 while doing corresponding activity 
+	in the Column 2 of respective row.
+
+Column 40: tGravityAcc-std()-Y
+	This column represents the average of standard deviation(std) estimates of signal “tGravityAcc” 
+	in Y direction for the corresponding subject in Column 1 while doing corresponding activity 
+	in the Column 2 of respective row.
+
+Column 41: tGravityAcc-std()-Z
+	This column represents the average of standard deviation(std) estimates of signal “tGravityAcc” 
+	in Z direction for the corresponding subject in Column 1 while doing corresponding activity 
+	in the Column 2 of respective row.
+
+Column 42: tBodyAccJerk-std()-X
+	This column represents the average of standard deviation(std) estimates of signal “tBodyAccJerk” 
+	in X direction for the corresponding subject in Column 1 while doing corresponding activity 
+	in the Column 2 of respective row.
+
+Column 43: tBodyAccJerk-std()-Y
+	This column represents the average of standard deviation(std) estimates of signal “tBodyAccJerk” 
+	in Y direction for the corresponding subject in Column 1 while doing corresponding activity 
+	in the Column 2 of respective row.
+
+Column 44: tBodyAccJerk-std()-Z
+	This column represents the average of standard deviation(std) estimates of signal “tBodyAccJerk” 
+	in Z direction for the corresponding subject in Column 1 while doing corresponding activity 
+	in the Column 2 of respective row.
+
+Column 45 tBodyGyro-std()-X
+	This column represents the average of standard deviation(std) estimates of signal “tBodyGyro” 
+	in X direction for the corresponding subject in Column 1 while doing corresponding activity 
+	in the Column 2 of respective row.
+
+Column 46: tBodyGyro-std()-Y
+	This column represents the average of standard deviation(std) estimates of signal “tBodyGyro” 
+	in Y direction for the corresponding subject in Column 1 while doing corresponding activity 
+	in the Column 2 of respective row.
+
+Column 47: tBodyGyro-std()-Z
+	This column represents the average of standard deviation(std) estimates of signal “tBodyGyro” 
+	in Z direction for the corresponding subject in Column 1 while doing corresponding activity 
+	in the Column 2 of respective row.
+
+Column 48: tBodyGyroJerk-std()-X
+	This column represents the average of standard deviation(std) estimates of signal “tBodyGyroJerk” 
+	in X direction for the corresponding subject in Column 1 while doing corresponding activity 
+	in the Column 2 of respective row.
+
+Column 49: tBodyGyroJerk-std()-Y
+	This column represents the average of standard deviation(std) estimates of signal “tBodyGyroJerk” 
+	in Y direction for the corresponding subject in Column 1 while doing corresponding activity 
+	in the Column 2 of respective row.
+
+Column 50: tBodyGyroJerk-std()-Z
+	This column represents the average of standard deviation(std) estimates of signal “tBodyGyroJerk” 
+	in Z direction for the corresponding subject in Column 1 while doing corresponding activity 
+	in the Column 2 of respective row.
+
+Column 51: tBodyAccMag-std()
+	This column represents the average of standard deviation(std) estimates of signal “tBodyAccMag” 
+	for the corresponding subject in Column 1 while doing corresponding activity 
+	in the Column 2 of respective row.
+
+Column 52: tGravityAccMag-std()
+	This column represents the average of standard deviation(std) estimates of signal “tGravityAccMag” 
+	for the corresponding subject in Column 1 while doing corresponding activity 
+	in the Column 2 of respective row.
+
+Column 53: tBodyAccJerkMag-std()
+	This column represents the average of standard deviation(std) estimates of signal “tBodyAccJerkMag” 
+	for the corresponding subject in Column 1 while doing corresponding activity 
+	in the Column 2 of respective row.
+
+Column 54: tBodyGyroMag-std()
+	This column represents the average of standard deviation(std) estimates of signal “tBodyGyroMag” 
+	for the corresponding subject in Column 1 while doing corresponding activity 
+	in the Column 2 of respective row.
+
+Column 55: tBodyGyroJerkMag-std()
+	This column represents the average of standard deviation(std) estimates of signal “tBodyGyroJerkMag” 
+	for the corresponding subject in Column 1 while doing corresponding activity 
+	in the Column 2 of respective row.
+
+Column 56: fBodyAcc-std()-X
+	This column represents the average of standard deviation(std) estimates of signal “fBodyAcc” 
+	in X direction for the corresponding subject in Column 1 while doing corresponding activity 
+	in the Column 2 of respective row.
+
+Column 57: fBodyAcc-std()-Y
+	This column represents the average of standard deviation(std) estimates of signal “fBodyAcc” 
+	in Y direction for the corresponding subject in Column 1 while doing corresponding activity 
+	in the Column 2 of respective row.
+
+Column 58: fBodyAcc-std()-Z
+	This column represents the average of standard deviation(std) estimates of signal “fBodyAcc” 
+	in Z direction for the corresponding subject in Column 1 while doing corresponding activity 
+	in the Column 2 of respective row.
+
+Column 59: fBodyAccJerk-std()-X
+	This column represents the average of standard deviation(std) estimates of signal “fBodyAccJerk” 
+	in X direction for the corresponding subject in Column 1 while doing corresponding activity 
+	in the Column 2 of respective row.
+
+Column 60: fBodyAccJerk-std()-Y
+	This column represents the average of standard deviation(std) estimates of signal “fBodyAccJerk” 
+	in Y direction for the corresponding subject in Column 1 while doing corresponding activity 
+	in the Column 2 of respective row.
+
+Column 61: fBodyAccJerk-std()-Z
+	This column represents the average of standard deviation(std) estimates of signal “fBodyAccJerk” 
+	in Z direction for the corresponding subject in Column 1 while doing corresponding activity 
+	in the Column 2 of respective row.
+
+Column 62: fBodyGyro-std()-X
+	This column represents the average of standard deviation(std) estimates of signal “fBodyGyro” 
+	in X direction for the corresponding subject in Column 1 while doing corresponding activity 
+	in the Column 2 of respective row.
+
+Column 63: fBodyGyro-std()-Y
+	This column represents the average of standard deviation(std) estimates of signal “fBodyGyro” 
+	in Y direction for the corresponding subject in Column 1 while doing corresponding activity 
+	in the Column 2 of respective row.
+
+Column 64: fBodyGyro-std()-Z
+	This column represents the average of standard deviation(std) estimates of signal “fBodyGyro” 
+	in Z direction for the corresponding subject in Column 1 while doing corresponding activity 
+	in the Column 2 of respective row.
+
+Column 65: fBodyAccMag-std()
+	This column represents the average of standard deviation(std) estimates of signal “fBodyAccMag” 
+	for the corresponding subject in Column 1 while doing corresponding activity 
+	in the Column 2 of respective row.
+
+Column 66: fBodyBodyAccJerkMag-std()
+	This column represents the average of standard deviation(std) estimates of signal “fBodyAccJerkMag” 
+	for the corresponding subject in Column 1 while doing corresponding activity 
+	in the Column 2 of respective row.
+
+Column 67: fBodyBodyGyroMag-std()
+	This column represents the average of standard deviation(std) estimates of signal “fBodyGyroMag” 
+	for the corresponding subject in Column 1 while doing corresponding activity 
+	in the Column 2 of respective row.
+
+Column 68: fBodyBodyGyroJerkMag-std()
+	This column represents the average of standard deviation(std) estimates of signal “fBodyGyroJerkMag” 
+	for the corresponding subject in Column 1 while doing corresponding activity 
+	in the Column 2 of respective row.
