@@ -1,0 +1,123 @@
+#CodeBook for Project Dataset
+
+In tidyData, there are 68 columns and 180 rows.
+
+Column 1 : Subject
+	1:30 integer values each specifying one particular person who did the experiment
+
+Column 2: Activity
+	1	WALKING
+	2 	WALKING_UPSTAIRS
+	3 	WALKING_DOWNSTAIRS
+	4 	SITTING
+	5 	STANDING
+	6 	LAYING
+	In the raw dataset, there are activity labels 1:6. However, in the tidyData, activity
+	is specified as WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.
+	
+Column 3: tBodyAcc-mean()-X      
+	In the tidyData, this column represents the average of mean estimates of signal “tBodyAcc” 
+	in X direction for the corresponding value of subject in Column 1 while doing corresponding 
+	activity in the Column 2 of respective row.
+	
+Column 4: tBodyAcc-mean()-Y       
+	In the tidyData, this column represents the average of mean estimates of signal “tBodyAcc” 
+	in Y direction for the corresponding value of subject in Column 1 while doing corresponding 
+	activity in the Column 2 of respective row.
+
+Column 5: tBodyAcc-mean()-Z       
+	In the tidyData, this column represents the average of mean estimates of signal “tBodyAcc” 
+	in Z direction for the corresponding value of subject in Column 1 while doing corresponding 
+	activity in the Column 2 of respective row.
+	
+Column 6: tGravityAcc-mean()-X 
+	In the tidyData, this column represents the average of mean estimates of signal “tGravityAcc” 
+	in X direction for the corresponding value of subject in Column 1 while doing corresponding 
+	activity in the Column 2 of respective row.
+	
+Column 7: tGravityAcc-mean()-Y
+	In the tidyData, this column represents the average of mean estimates of signal “tGravityAcc” 
+	in Y direction for the corresponding value of subject in Column 1 while doing corresponding 
+	activity in the Column 2 of respective row.
+	
+Column 8: tGravityAcc-mean()-Z
+	In the tidyData, this column represents the average of mean estimates of signal “tGravityAcc” 
+	in Z direction for the corresponding value of subject in Column 1 while doing corresponding 
+	activity in the Column 2 of respective row.
+	
+Column 9: tBodyAccJerk-mean()-X
+	In the tidyData, this column represents the average of mean estimates of signal “tBodyAccJerk” 
+	in X direction for the corresponding value of subject in Column 1 while doing corresponding 
+	activity in the Column 2 of respective row.
+	
+Column 10: tBodyAccJerk-mean()-Y
+	In the tidyData, this column represents the average of mean estimates of signal “tBodyAccJerk” 
+	in Y direction for the corresponding value of subject in Column 1 while doing corresponding 
+	activity in the Column 2 of respective row.
+	
+Column 11: tBodyAccJerk-mean()-Z
+	In the tidyData, this column represents the average of mean estimates of signal “tBodyAccJerk” 
+	in Z direction for the corresponding value of subject in Column 1 while doing corresponding 
+	activity in the Column 2 of respective row.
+	
+Colum 12: tBodyGyro-mean()-X
+	In the tidyData, this column represents the average of mean estimates of signal “tBodyGyro” 
+	in X direction for the corresponding value of subject in Column 1 while doing corresponding 
+	activity in the Column 2 of respective row.
+	
+Column 13: tBodyGyro-mean()-Y
+	In the tidyData, this column represents the average of mean estimates of signal “tBodyGyro” 
+	in Y direction for the corresponding value of subject in Column 1 while doing corresponding 
+	activity in the Column 2 of respective row.
+	
+Column 14: tBodyGyro-mean()-Z
+	In the tidyData, this column represents the average of mean estimates of signal “tBodyGyro” 
+	in Z direction for the corresponding value of subject in Column 1 while doing corresponding 
+	activity in the Column 2 of respective row.
+	
+Column 15: tBodyGyroJerk-mean()-X
+	In the tidyData, this column represents the average of mean estimates of signal “tBodyGyroJerk” 
+	in X direction for the corresponding value of subject in Column 1 while doing corresponding 
+	activity in the Column 2 of respective row.
+	
+Column 16: tBodyGyroJerk-mean()-Y
+	In the tidyData, this column represents the average of mean estimates of signal “tBodyGyroJerk” 
+	in Y direction for the corresponding value of subject in Column 1 while doing corresponding 
+	activity in the Column 2 of respective row.
+	
+Column 17: tBodyGyroJerk-mean()-Z
+	In the tidyData, this column represents the average of mean estimates of signal “tBodyGyroJerk” 
+	in Z direction for the corresponding value of subject in Column 1 while doing corresponding 
+	activity in the Column 2 of respective row.
+	
+Column 18: tBodyAccMag-mean()
+	In the tidyData, this column represents the average of mean estimates of signal “tBodyAccMag” 
+	for the corresponding value of subject in Column 1 while doing corresponding 
+	activity in the Column 2 of respective row.
+	
+Column 19: tGravityAccMag-mean()
+	In the tidyData, this column represents the average of mean estimates of signal “tGravityAccMag” 
+	for the corresponding value of subject in Column 1 while doing corresponding 
+	activity in the Column 2 of respective row.
+	
+Column 20: tBodyAccJerkMag-mean()
+21 tBodyGyroMag-mean()
+22 tBodyGyroJerkMag-mean()
+Column 23: fBodyAcc-mean()-X
+	In the tidyData, this column represents the average of mean estimates of signal “fBodyAcc” 
+	in X direction for the corresponding value of subject in Column 1 while doing corresponding 
+	activity in the Column 2 of respective row.
+	
+Column 24: fBodyAcc-mean()-Y
+25 fBodyAcc-mean()-Z
+26 fBodyAccJerk-mean()-X
+27 fBodyAccJerk-mean()-Y
+28 fBodyAccJerk-mean()-Z
+29 fBodyGyro-mean()-X
+30 fBodyGyro-mean()-Y
+31 fBodyGyro-mean()-Z
+32 fBodyAccMag-mean()
+33 fBodyBodyAccJerkMag-mean()
+34 fBodyBodyGyroMag-mean()
+35 fBodyBodyGyroJerkMag-mean()
+v 
