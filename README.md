@@ -1,31 +1,36 @@
 # Project-Get-Clean-Data
 
-	The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. 
+The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. 
 Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
 wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we 
 captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50 Hz. 
 
-	The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals
+
+The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals
 tAcc-XYZ and t-Gyro-XYZ. These time domain signals ((prefix 't' to denote time) were captured at a constant rate 
 of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner
 frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity 
 acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner 
 frequency of 0.3 Hz.
 
-	Similarly, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+
+Similarly, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals
 (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated
 using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag).
 
-	Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ,
+
+Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ,
 fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate
 frequency domain signals).
       
-	These signals were used to estimate mean and standard deviation(std) of all the above mentioned features for
+
+These signals were used to estimate mean and standard deviation(std) of all the above mentioned features for
 each pattern. In the raw data, many other variables were also estimated from these signals. Since in tidyData,
 we do not include that, we do not mention here. '-XYZ' is used to denote 3-axial signals in the X, Y and Z
 directions.
 
-	In the raw data, all the subjects(volunteers) are divided into two groups and their data is recorded
+
+In the raw data, all the subjects(volunteers) are divided into two groups and their data is recorded
 in two different sets - training dataset and test dataset. The raw dataset has all the data in the following files:
 
 
